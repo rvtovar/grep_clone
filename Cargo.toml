@@ -1,0 +1,12 @@
+[package]
+name = "grep_clone"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "2"
+regex = "1.10.5"
+
+[[bin]]
+name = "grep_clone"
+path = "src/main.rs"
